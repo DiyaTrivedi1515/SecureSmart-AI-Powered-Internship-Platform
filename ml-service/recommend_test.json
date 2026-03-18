@@ -1,0 +1,7 @@
+{
+    "studentSkills": ["React", "Node.js"],
+    "internships": [
+        {"title": "Frontend Intern", "description": "React developer wanted"},
+        {"title": "Sales Intern", "description": "Marketing and sales role"}
+    ]
+}

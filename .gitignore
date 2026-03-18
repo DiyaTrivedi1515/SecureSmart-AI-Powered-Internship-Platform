@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables (keep sensitive secrets local only)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# Production builds
+build/
+dist/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+server_error.log
+server_logs.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded user files (don't push real user data)
+backend/uploads/resumes/*.pdf
+backend/uploads/aadhaar/*.pdf
+backend/uploads/aadhaar/*.jpg
+backend/uploads/aadhaar/*.png
+backend/uploads/gst/*.pdf
+backend/uploads/gst/*.jpg
+
+# Temp/debug scripts
+out_resume.json
+admin_dump.json
+login.json
+
+# Editor
+.vscode/
+.idea/

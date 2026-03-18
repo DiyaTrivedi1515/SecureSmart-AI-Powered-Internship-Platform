@@ -1,0 +1,9 @@
+flask
+flask-cors
+scikit-learn
+pandas
+numpy
+nltk
+spacy
+pyresparser
+pdfminer.six
